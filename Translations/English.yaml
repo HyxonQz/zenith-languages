@@ -1,0 +1,115 @@
+language: "EN"
+
+javaServerVerificationInstructions:
+  title: Getting A Code From Zenith
+  message: |
+    1. Join `%s` (Java edition)
+    2. Copy the code displayed
+    3. Return to discord and click `verify`
+    4. Enter your code into the pop-up
+
+bedrockServerVerificationInstructions:
+  title: Getting A Code From Zenith
+  message: |
+    1. Join `%s` (Bedrock edition)
+    2. Copy the code displayed
+    3. Return to discord and click `verify`
+    4. Enter your code into the pop-up
+
+hypixelServerVerificationInstructions:
+  title: Linking Discord To Hypixel
+  message: |
+    1. Join `mc.hypixel.net` (Java Edition)
+    2. Right click your Minecraft player head in the hot-bar
+    3. Click on Social Media (Twitter Icon)
+    4. Left click on Discord
+    5. Type `/chat a`
+    6. Send your full discord username (`%s`) 
+    7. Return to Discord and press `verify`
+    8. Enter your Minecraft username into the pop-up
+
+    Click `GIF` below for an animated tutorial!
+
+initialVerificationPanel:
+  title: Verify Your Account
+  message: |
+    Welcome to %s! To get started, click `verify` below.
+    If you are stuck press `help`!
+
+hypixelVerificationPanel:
+  title: Verify With Hypixel
+  message: |
+    Zenith will use the Discord tag you set on Hypixel to link your Minecraft account. 
+    Click `verify` and enter your Minecraft username. 
+    If you need help, click the `help` button below!
+
+javaVerificationPanel:
+  title: Verify With Java Edition
+  message: |
+    Get a temporary verification code by joining Zenith's Minecraft server (`%s`). 
+    Next, press `verify` and enter the code displayed by the Minecraft server. 
+    If you need help, click the `help` button below!
+
+bedrockVerificationPanel:
+  title: Verify With Bedrock Edition
+  message: |
+    Get a temporary verification code by joining Zenith's Minecraft server (`%s`). 
+    Next, press `verify` and enter the code displayed by the Minecraft server. 
+    If you need help, click the `help` button below!
+
+successfulVerification:
+  title: Successfully Verified
+  message: |
+    Welcome! You have been verified as `%s`
+
+errorInvalidUsername:
+  title: Invalid Username
+  message: |
+    Whoops! Looks like that isn't a valid Minecraft username.
+    Make sure it is spelt correctly and try again!
+
+errorInvalidHypixelProfile:
+  title: Invalid Hypixel Profile
+  message: |
+    Whoops! Looks like that player hasn't logged onto Hypixel before.
+    Log into Hypixel and try again!
+
+errorInvalidVerificationCode:
+  title: Invalid Verification Code
+  message: |
+    Whoops! Looks like that isn't a valid code.
+    Try again, or generate a new code!
+
+errorExpiredVerificationCode:
+  title: Expired Verification Code
+  message: |
+    Whoops! Looks like that code has expired.
+    Generate a new code and try again!
+
+errorDiscordDoesNotMatch:
+  title: Discord Does Not Match
+  message: |
+    Whoops! Looks like you need to update your Hypixel Discord to`%s`.
+    For help, click the `help` button below!
+
+errorAccountBanned:
+  title: Account Banned
+  message: |
+    Uh oh... Looks like your account is banned from this server. 
+    If this is a mistake, contact the server staff!
+
+errorAccountAlreadyVerified:
+  title: Account Already Verified
+  message: |
+    Uh oh... Looks like `%s` is already linked to an account.
+    You'll have to unlink it before re-verifying!
+
+errorCriticalError:
+  title: Critical Error
+  message: |
+    Panic! `%s`
+
+discordMissingPermissions:
+  title: Missing Permissions
+  message: |
+    "Panic! I don't have the correct permissions to do that!"
